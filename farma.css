@@ -1,0 +1,43 @@
+body {
+  background-color: #222;
+}
+p {
+  color: yellow;
+}
+h1 {
+  color: darkred;
+}
+.highscore {
+  color: rgb(0, 255, 242);
+}
+.wynik {
+  color: rgb(214, 209, 209);
+}
+.popup-tlo {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  border-radius: 19px;
+}
+.popup-close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  color: #333;
+  transform: rotate(45deg);
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="farma.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>JAKIE TO ZWIERZĘ?</h1>
+      <p>Jak dobrze znasz zwierzęta rolnicze? Zaraz się przekonamy!</p>
+    </header>
+    <main>
+      <section>
+        <p class="pytanie">Losowe pytanie...</p>
+        <p class="ostrzezenie"></p>
+        <input type="text" class="userinput" />
+        <button class="check">Check</button>
+        <p class="tablica">dsa</p>
+      </section>
+      <section>
+        <div class="highscore">Twój wynik to: 0</div>
+        <div class="wynik"></div>
+        <button class="nowyroll">Losuj nowe pytanie!</button>
+      </section>
+      <section>
+        <button class="wskazowka">Podpowiedź graficzna</button>
+        <div class="zdjecie">
+          <img
+            src="zanakzapytania.png"
+            height="300px"
+            width="300px"
+            alt="Znak zapytania"
+            class="muuu"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="popup-tlo">
+        <div class="popup-content-dobraodp">
+          <h1>
+            Gratulacje, jesteś prawdziwym ekspertem od zwierząt wiejskich!
+          </h1>
+          <button class="odnowa" onclick="location.reload()">
+            Rozpocznij test jeszcze raz!
+          </button>
+          <div class="powrot"></div>
+          <button class="odnowa">Powrót na stronę główną!</button>
+          <div class="popup-close">+</div>
+        </div>
+      </div>
+    </footer>
+    <script src="toskrypt.js"></script>
+  </body>
+</html>
